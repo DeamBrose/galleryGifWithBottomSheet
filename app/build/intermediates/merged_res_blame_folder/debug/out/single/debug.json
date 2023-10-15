@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_vegeta_vs_broly.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/vegeta_vs_broly.gif"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_adam_warlcok.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/adam_warlcok.gif"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_pokemon_lucario.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/pokemon_lucario.gif"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_vegeta_blue.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/vegeta_blue.gif"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_cell_power.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/cell_power.gif"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_beast_gohan.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/beast_gohan.gif"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_jetpack_compose_icon.png.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/jetpack_compose_icon.png"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/xml_backup_rules.xml.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_broly_dbz.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/broly_dbz.gif"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_carnage.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/carnage.gif"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_naruto_vs_momoshiki.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/naruto_vs_momoshiki.gif"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_lugia.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/lugia.gif"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_naruto_jigen.jpg.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/naruto_jigen.jpg"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_boruto_full_power.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/boruto_full_power.gif"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_mewtwo.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/mewtwo.gif"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_venom.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/venom.gif"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_thor_thunder.jpg.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/thor_thunder.jpg"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_thor_truenos.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/thor_truenos.gif"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/font_inconsolata_variablefont_wdth_wght.ttf.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/font/inconsolata_variablefont_wdth_wght.ttf"
+    },
+    {
+        "merged": "com.example.helloworldcompose.app-merged_res-46:/drawable_the_avengers.gif.flat",
+        "source": "com.example.helloworldcompose.app-main-48:/drawable/the_avengers.gif"
+    }
+]
