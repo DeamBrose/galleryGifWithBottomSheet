@@ -67,5 +67,4 @@ dependencies {
     //others implementation
     implementation("io.coil-kt:coil-compose:2.4.0")
     implementation("io.coil-kt:coil-gif:2.4.0")
-    implementation("com.google.accompanist:accompanist-systemuicontroller:0.31.2-alpha")
 }

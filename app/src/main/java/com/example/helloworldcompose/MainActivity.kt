@@ -51,7 +51,7 @@ import coil.decode.ImageDecoderDecoder
 import com.example.helloworldcompose.ui.theme.HelloWorldComposeTheme
 import java.util.UUID
 
-@OptIn(ExperimentalMaterial3Api::class)
+@OptIn( ExperimentalMaterial3Api::class )
 class MainActivity : ComponentActivity() {
     private val personAnimeList: List<personAnime> = dataProvider.dataBaseList
     private lateinit var context: Context
@@ -180,8 +180,7 @@ class MainActivity : ComponentActivity() {
     }
 
     @Composable
-    fun MessageCard(msg: personAnime) {
-
+    fun MessageCard( msg: personAnime ) {
         Row(modifier = Modifier
             .padding(all = 8.dp)
             .clickable {
@@ -221,12 +220,12 @@ class MainActivity : ComponentActivity() {
     }
 
     @Composable
-    fun MessageCardWithGif(msg: personAnime) {
-        val imageLoader = ImageLoader.Builder(LocalContext.current).components {
-            if (SDK_INT >= 28) {
-                add(ImageDecoderDecoder.Factory())
+    fun MessageCardWithGif( msg: personAnime ) {
+        val imageLoader = ImageLoader.Builder( LocalContext.current ).components {
+            if ( SDK_INT >= 28 ) {
+                add( ImageDecoderDecoder.Factory() )
             } else {
-                add(GifDecoder.Factory())
+                add( GifDecoder.Factory() )
             }
         }.build()
         Row(modifier = Modifier
