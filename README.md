@@ -1,2 +1,2 @@
 # galleryGifWithBottomSheet
-https://github.com/DeamBrose/galleryGifWithBottomSheet/assets/79533815/cf8ec71e-7054-4308-a3a6-b6612d3c7fca
+https://github.com/DeamBrose/galleryGifWithBottomSheet/assets/79533815/58e511e0-25d0-403c-97f9-b4280083a466
