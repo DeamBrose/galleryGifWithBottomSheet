@@ -68,6 +68,7 @@ int drawable ic_call_decline_low 0x7f04000d
 int drawable ic_launcher_background 0x7f04000e
 int drawable ic_launcher_foreground 0x7f04000f
 int drawable jetpack_compose_icon 0x7f040010
+int drawable lord_sit 0x7f040029
 int drawable lugia 0x7f040011
 int drawable mewtwo 0x7f040012
 int drawable naruto_jigen 0x7f040013
@@ -86,11 +87,13 @@ int drawable notification_template_icon_low_bg 0x7f04001f
 int drawable notification_tile_bg 0x7f040020
 int drawable notify_panel_notification_icon_bg 0x7f040021
 int drawable pokemon_lucario 0x7f040022
+int drawable rengoku 0x7f04002a
 int drawable the_avengers 0x7f040023
 int drawable thor_thunder 0x7f040024
 int drawable thor_truenos 0x7f040025
 int drawable vegeta_blue 0x7f040026
 int drawable vegeta_vs_broly 0x7f040027
+int drawable vegito 0x7f04002b
 int drawable venom 0x7f040028
 int font inconsolata_variablefont_wdth_wght 0x7f050000
 int id accessibility_action_clickable_span 0x7f060000

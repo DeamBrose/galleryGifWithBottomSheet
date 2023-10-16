@@ -1,7 +1,7 @@
-#Fri Oct 13 14:44:15 PET 2023
-base.0=C\:\\Users\\apilcoqu\\AndroidStudioProjects\\helloWorldCompose\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
-base.1=C\:\\Users\\apilcoqu\\AndroidStudioProjects\\helloWorldCompose\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
-base.2=C\:\\Users\\apilcoqu\\AndroidStudioProjects\\helloWorldCompose\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\3\\classes.dex
+#Mon Oct 16 14:40:01 PET 2023
+base.0=C\:\\Users\\apilcoqu\\OneDrive - NTT DATA EMEAL\\Escritorio\\AndroidHelloCompose\\galleryGifWithBottomSheet\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=C\:\\Users\\apilcoqu\\OneDrive - NTT DATA EMEAL\\Escritorio\\AndroidHelloCompose\\galleryGifWithBottomSheet\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=C\:\\Users\\apilcoqu\\OneDrive - NTT DATA EMEAL\\Escritorio\\AndroidHelloCompose\\galleryGifWithBottomSheet\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\3\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=3/classes.dex

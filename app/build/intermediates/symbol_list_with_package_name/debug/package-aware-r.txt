@@ -69,6 +69,7 @@ drawable ic_call_decline_low
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable jetpack_compose_icon
+drawable lord_sit
 drawable lugia
 drawable mewtwo
 drawable naruto_jigen
@@ -87,11 +88,13 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pokemon_lucario
+drawable rengoku
 drawable the_avengers
 drawable thor_thunder
 drawable thor_truenos
 drawable vegeta_blue
 drawable vegeta_vs_broly
+drawable vegito
 drawable venom
 font inconsolata_variablefont_wdth_wght
 id accessibility_action_clickable_span

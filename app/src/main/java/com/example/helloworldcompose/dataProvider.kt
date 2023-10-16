@@ -117,6 +117,27 @@ class dataProvider {
                 photo = R.drawable.cell_power,
                 typePhoto = "gif",
             ),
+            personAnime(
+                id = UUID.randomUUID(),
+                tittle = "Vegetto",
+                mesagge = "Vegetto (ベジット, Bejitto) es el resultado de la unificación entre Vegeta y Kakarotto mediante los Pothala dados por las deidades Kaio-shin, existiendo como la contraparte de Gogeta, su fusión por la danza metamorana.",
+                photo = R.drawable.vegito,
+                typePhoto = "gif",
+            ),
+            personAnime(
+                id = UUID.randomUUID(),
+                tittle = "Lord Sith",
+                mesagge = "El Lord Sith era un título conferido a los individuos que seguían la tradición Sith. Los Señores Sith se adentraron en el lado oscuro de la Fuerza, utilizando para obtener poder.",
+                photo = R.drawable.lord_sit,
+                typePhoto = "gif",
+            ),
+            personAnime(
+                id = UUID.randomUUID(),
+                tittle = "Kyojuro Rengoku",
+                mesagge = "Kyojuro Rengoku (煉れん獄ごく 杏きょう寿じゅ郎ろう, Rengoku Kyōjurō?) fue un cazador de Demonios y el Pilar de la Llama (炎えん柱ばしら, En Bashira?). del Cuerpo de Exterminio de Demonios.",
+                photo = R.drawable.rengoku,
+                typePhoto = "gif",
+            ),
 
         )
     }

@@ -53,42 +53,39 @@ import java.util.UUID
 
 @OptIn(ExperimentalMaterial3Api::class)
 class MainActivity : ComponentActivity() {
-    private val personAnimeList:List<personAnime> = dataProvider.dataBaseList
+    private val personAnimeList: List<personAnime> = dataProvider.dataBaseList
     private lateinit var context: Context
-
     val consolaFontFamily = FontFamily(
         Font(R.font.inconsolata_variablefont_wdth_wght, FontWeight.Medium)
     )
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+
+    override fun onCreate( savedInstanceState: Bundle? ) {
+        super.onCreate( savedInstanceState )
         setContent {
             ViewContainer()
             context = LocalContext.current
-
         }
     }
 
-    @Preview(showBackground = true)
+    @Preview( showBackground = true )
     @Composable
     fun ViewContainer() {
         HelloWorldComposeTheme {
             Surface(
-                modifier = Modifier.fillMaxSize(),
-                color = MaterialTheme.colorScheme.background
+                modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background
             ) {
                 //Variables
-                val imageLoader = ImageLoader.Builder(LocalContext.current)
-                    .components {
-                        if (SDK_INT >= 28) {
-                            add(ImageDecoderDecoder.Factory())
-                        } else {
-                            add(GifDecoder.Factory())
-                        }
-                    }.build()
+                val imageLoader = ImageLoader.Builder( LocalContext.current ).components {
+                    if ( SDK_INT >= 28 ) {
+                        add( ImageDecoderDecoder.Factory() )
+                    } else {
+                        add( GifDecoder.Factory() )
+                    }
+                }.build()
 
                 val sheetState = rememberModalBottomSheetState()
                 var isSheetOpen by remember {
-                    mutableStateOf(false)
+                    mutableStateOf( false )
                 }
                 var codeImage = 0
                 var typeFile = ""
@@ -96,63 +93,25 @@ class MainActivity : ComponentActivity() {
                 //code here
                 LazyColumn {
                     item {
-
                         personAnimeList.forEach { person ->
-
-                            if( person.typePhoto == "png" || person.typePhoto == "jpg" ){
-                                //MessageCard
-                                Row(
-                                    modifier = Modifier
-                                        .padding(all = 8.dp)
-                                        .clickable {
-                                            isSheetOpen = true
-                                            codeImage = person.photo
-                                            typeFile = person.typePhoto
-                                            //Toast.makeText(context, codeImage, Toast.LENGTH_SHORT).show()
-                                        }
-                                ) {
+                            Row( modifier = Modifier
+                                .padding( all = 8.dp )
+                                .clickable {
+                                    isSheetOpen = true
+                                    codeImage = person.photo
+                                    typeFile = person.typePhoto
+                                    //Toast.makeText(context, codeImage, Toast.LENGTH_SHORT).show()
+                                } ) {
+                                if ( person.typePhoto == "png" || person.typePhoto == "jpg" ) {
                                     Image(
-                                        painter = painterResource(id = person.photo),
+                                        painter = painterResource( id = person.photo ),
                                         contentDescription = person.tittle,
                                         contentScale = ContentScale.Crop,
                                         modifier = Modifier
-                                            .size(60.dp)
-                                            .clip(CircleShape)
+                                            .size( 60.dp )
+                                            .clip( CircleShape )
                                     )
-                                    Spacer(modifier = Modifier.width(8.dp))
-                                    Column(modifier = Modifier.fillMaxWidth()) {
-                                        Text(
-                                            text = person.tittle,
-                                            fontFamily = consolaFontFamily,
-                                            fontWeight = FontWeight.Medium,
-                                            maxLines = 1,
-                                            overflow = TextOverflow.Ellipsis,
-                                            modifier = Modifier.fillMaxWidth()
-                                        )
-                                        Spacer(modifier = Modifier.height(4.dp))
-                                        Text(
-                                            text = person.mesagge,
-                                            fontFamily = consolaFontFamily,
-                                            fontWeight = FontWeight.Medium,
-                                            maxLines = 1,
-                                            overflow = TextOverflow.Ellipsis,
-                                            modifier = Modifier.fillMaxWidth()
-                                        )
-                                    }
-                                }
-
-                            }else{
-                                //MessageCardWithGif
-                                Row(
-                                    modifier = Modifier
-                                        .padding(all = 8.dp)
-                                        .clickable {
-                                            codeImage = person.photo
-                                            typeFile = person.typePhoto
-                                            //Toast.makeText(context, "${codeImage}", Toast.LENGTH_SHORT).show()
-                                            isSheetOpen = true
-                                        }
-                                ) {
+                                } else {
                                     Image(
                                         painter = rememberAsyncImagePainter(
                                             person.photo,
@@ -161,51 +120,47 @@ class MainActivity : ComponentActivity() {
                                         contentDescription = "All Gif media",
                                         contentScale = ContentScale.Crop,
                                         modifier = Modifier
-                                            .size(60.dp)
-                                            .clip(CircleShape)
+                                            .size( 60.dp )
+                                            .clip( CircleShape )
                                     )
-                                    Spacer(modifier = Modifier.width(8.dp))
-                                    Column(modifier = Modifier.fillMaxWidth()) {
-                                        Text(
-                                            text = person.tittle,
-                                            fontFamily = consolaFontFamily,
-                                            fontWeight = FontWeight.Medium,
-                                            maxLines = 1,
-                                            overflow = TextOverflow.Ellipsis,
-                                            modifier = Modifier.fillMaxWidth()
-                                        )
-                                        Spacer(modifier = Modifier.height(4.dp))
-                                        Text(
-                                            text = person.mesagge,
-                                            fontFamily = consolaFontFamily,
-                                            fontWeight = FontWeight.Medium,
-                                            maxLines = 1,
-                                            overflow = TextOverflow.Ellipsis,
-                                            modifier = Modifier.fillMaxWidth()
-                                        )
-                                    }
                                 }
-
+                                Spacer( modifier = Modifier.width(8.dp) )
+                                Column( modifier = Modifier.fillMaxWidth() ) {
+                                    Text(
+                                        text = person.tittle,
+                                        fontFamily = consolaFontFamily,
+                                        fontWeight = FontWeight.Medium,
+                                        maxLines = 1,
+                                        overflow = TextOverflow.Ellipsis,
+                                        modifier = Modifier.fillMaxWidth()
+                                    )
+                                    Spacer( modifier = Modifier.height(4.dp) )
+                                    Text(
+                                        text = person.mesagge,
+                                        fontFamily = consolaFontFamily,
+                                        fontWeight = FontWeight.Medium,
+                                        maxLines = 1,
+                                        overflow = TextOverflow.Ellipsis,
+                                        modifier = Modifier.fillMaxWidth()
+                                    )
+                                }
                             }
                         }
 
-                        if( isSheetOpen ){
-                            ModalBottomSheet (
-                                sheetState = sheetState,
+                        if ( isSheetOpen ) {
+                            ModalBottomSheet( sheetState = sheetState,
                                 onDismissRequest = {
-                                    isSheetOpen = false
-                                }
-                            )
-                            {
+                                isSheetOpen = false
+                            } ) {
                                 //Content here
-                                if( typeFile == "png" || typeFile == "jpg" ){
-                                    Image (
-                                        painter = painterResource(id = codeImage),
+                                if ( typeFile == "png" || typeFile == "jpg" ) {
+                                    Image(
+                                        painter = painterResource( id = codeImage ),
                                         //contentScale = ContentScale.Crop,
                                         contentDescription = "codeImage",
                                         modifier = Modifier.fillMaxWidth(),
                                     )
-                                }else {
+                                } else {
                                     Image(
                                         painter = rememberAsyncImagePainter(
                                             codeImage,
@@ -216,7 +171,6 @@ class MainActivity : ComponentActivity() {
                                         modifier = Modifier.fillMaxWidth(),
                                     )
                                 }
-
                             }
                         }
                     }
@@ -228,13 +182,13 @@ class MainActivity : ComponentActivity() {
     @Composable
     fun MessageCard(msg: personAnime) {
 
-        Row(
-            modifier = Modifier
-                .padding(all = 8.dp)
-                .clickable {
-                    Toast.makeText(context, msg.tittle, Toast.LENGTH_SHORT).show()
-                }
-        ) {
+        Row(modifier = Modifier
+            .padding(all = 8.dp)
+            .clickable {
+                Toast
+                    .makeText(context, msg.tittle, Toast.LENGTH_SHORT)
+                    .show()
+            }) {
             Image(
                 painter = painterResource(id = msg.photo),
                 contentDescription = msg.tittle,
@@ -268,26 +222,23 @@ class MainActivity : ComponentActivity() {
 
     @Composable
     fun MessageCardWithGif(msg: personAnime) {
-        val imageLoader = ImageLoader.Builder(LocalContext.current)
-            .components {
-                if (SDK_INT >= 28) {
-                    add(ImageDecoderDecoder.Factory())
-                } else {
-                    add(GifDecoder.Factory())
-                }
+        val imageLoader = ImageLoader.Builder(LocalContext.current).components {
+            if (SDK_INT >= 28) {
+                add(ImageDecoderDecoder.Factory())
+            } else {
+                add(GifDecoder.Factory())
             }
-            .build()
-        Row(
-            modifier = Modifier
-                .padding(all = 8.dp)
-                .clickable {
-                    Toast.makeText(context, msg.tittle, Toast.LENGTH_SHORT).show()
-                }
-        ) {
+        }.build()
+        Row(modifier = Modifier
+            .padding(all = 8.dp)
+            .clickable {
+                Toast
+                    .makeText(context, msg.tittle, Toast.LENGTH_SHORT)
+                    .show()
+            }) {
             Image(
                 painter = rememberAsyncImagePainter(
-                    msg.photo,
-                    imageLoader = imageLoader
+                    msg.photo, imageLoader = imageLoader
                 ),
                 contentDescription = "All Gif media",
                 contentScale = ContentScale.Crop,
@@ -322,13 +273,15 @@ class MainActivity : ComponentActivity() {
     @Preview(showBackground = true)
     @Composable
     fun PreviewMessageCard() {
-        MessageCard(msg = personAnime(
-            id = UUID.randomUUID(),
-            tittle = "Boruto Anime",
-            mesagge = "es el hijo de naruto uzumaki, un ninja que se convirtió en el hokage",
-            photo = R.drawable.boruto_full_power,
-            typePhoto = "gif"
-        ))
+        MessageCard(
+            msg = personAnime(
+                id = UUID.randomUUID(),
+                tittle = "Boruto Anime",
+                mesagge = "es el hijo de naruto uzumaki, un ninja que se convirtió en el hokage",
+                photo = R.drawable.boruto_full_power,
+                typePhoto = "gif"
+            )
+        )
     }
 }
 
