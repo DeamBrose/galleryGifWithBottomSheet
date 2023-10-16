@@ -40,9 +40,9 @@ com.example.helloworldcompose.app-material-1.4.3-38 C:\Users\apilcoqu\.gradle\ca
 com.example.helloworldcompose.app-foundation-1.5.0-alpha01-39 C:\Users\apilcoqu\.gradle\caches\transforms-3\f62068d50656d1f502b9aaf5656b3958\transformed\foundation-1.5.0-alpha01\res
 com.example.helloworldcompose.app-core-ktx-1.11.0-alpha01-40 C:\Users\apilcoqu\.gradle\caches\transforms-3\fc62f5a06e5077a136b077ee4305cac6\transformed\core-ktx-1.11.0-alpha01\res
 com.example.helloworldcompose.app-material-ripple-1.4.3-41 C:\Users\apilcoqu\.gradle\caches\transforms-3\fe140dbe03e158feb18801e4532992bc\transformed\material-ripple-1.4.3\res
-com.example.helloworldcompose.app-resValues-42 C:\Users\apilcoqu\AndroidStudioProjects\helloWorldCompose\app\build\generated\res\resValues\debug
-com.example.helloworldcompose.app-packageDebugResources-43 C:\Users\apilcoqu\AndroidStudioProjects\helloWorldCompose\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.helloworldcompose.app-packageDebugResources-44 C:\Users\apilcoqu\AndroidStudioProjects\helloWorldCompose\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.helloworldcompose.app-merged_res-45 C:\Users\apilcoqu\AndroidStudioProjects\helloWorldCompose\app\build\intermediates\merged_res\debug
-com.example.helloworldcompose.app-debug-46 C:\Users\apilcoqu\AndroidStudioProjects\helloWorldCompose\app\src\debug\res
-com.example.helloworldcompose.app-main-47 C:\Users\apilcoqu\AndroidStudioProjects\helloWorldCompose\app\src\main\res
+com.example.helloworldcompose.app-resValues-42 C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\build\generated\res\resValues\debug
+com.example.helloworldcompose.app-packageDebugResources-43 C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.helloworldcompose.app-packageDebugResources-44 C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.helloworldcompose.app-merged_res-45 C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\build\intermediates\merged_res\debug
+com.example.helloworldcompose.app-debug-46 C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\debug\res
+com.example.helloworldcompose.app-main-47 C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\main\res
