@@ -19,8 +19,6 @@ attr ttcIndex
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color black
-color call_notification_answer_color
-color call_notification_decline_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color purple_200
@@ -60,12 +58,6 @@ drawable boruto_full_power
 drawable broly_dbz
 drawable carnage
 drawable cell_power
-drawable ic_call_answer
-drawable ic_call_answer_low
-drawable ic_call_answer_video
-drawable ic_call_answer_video_low
-drawable ic_call_decline
-drawable ic_call_decline_low
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable jetpack_compose_icon
@@ -82,7 +74,6 @@ drawable notification_bg_low_pressed
 drawable notification_bg_normal
 drawable notification_bg_normal_pressed
 drawable notification_icon_background
-drawable notification_oversize_large_icon_bg
 drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
@@ -199,13 +190,6 @@ string bottom_sheet_collapse_description
 string bottom_sheet_dismiss_description
 string bottom_sheet_drag_handle_description
 string bottom_sheet_expand_description
-string call_notification_answer_action
-string call_notification_answer_video_action
-string call_notification_decline_action
-string call_notification_hang_up_action
-string call_notification_incoming_text
-string call_notification_ongoing_text
-string call_notification_screening_text
 string close_drawer
 string close_sheet
 string collapsed
