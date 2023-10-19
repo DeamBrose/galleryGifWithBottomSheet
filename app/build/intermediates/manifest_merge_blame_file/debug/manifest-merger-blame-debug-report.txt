@@ -46,8 +46,8 @@
 29-->C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\main\AndroidManifest.xml:13:9-55
 30        <activity
 30-->C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\main\AndroidManifest.xml:15:9-25:20
-31            android:name="com.example.helloworldcompose.MainActivity"
-31-->C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\main\AndroidManifest.xml:16:13-41
+31            android:name="com.example.helloworldcompose.ui.MainActivity"
+31-->C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\main\AndroidManifest.xml:16:13-44
 32            android:exported="true"
 32-->C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\main\AndroidManifest.xml:17:13-36
 33            android:label="@string/app_name"

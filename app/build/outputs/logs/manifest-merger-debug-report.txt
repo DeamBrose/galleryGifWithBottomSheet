@@ -115,7 +115,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\apilcoqu\.gradle\c
 		ADDED from C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\main\AndroidManifest.xml:13:9-55
 	android:dataExtractionRules
 		ADDED from C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.helloworldcompose.MainActivity
+activity#com.example.helloworldcompose.ui.MainActivity
 ADDED from C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\main\AndroidManifest.xml:15:9-25:20
 	android:label
 		ADDED from C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\main\AndroidManifest.xml:18:13-45
@@ -124,7 +124,7 @@ ADDED from C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCo
 	android:theme
 		ADDED from C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\main\AndroidManifest.xml:19:13-59
 	android:name
-		ADDED from C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\main\AndroidManifest.xml:16:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\apilcoqu\OneDrive - NTT DATA EMEAL\Escritorio\AndroidHelloCompose\galleryGifWithBottomSheet\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
