@@ -8,4 +8,6 @@ data class personAnime(
     val mesagge: String,
     val photo: Int,
     val typePhoto: String,
+    val dominantColor: Long,
+    val secondaryColor: Long,
 )
